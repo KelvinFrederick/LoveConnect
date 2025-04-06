@@ -130,8 +130,6 @@ $notif_check->close();
                     <button type="submit" name="like" class="like">❤️ Like</button>
                     <button type="submit" name="pass" class="pass">❌ Pass</button>
                 </form>
-
-                <!-- <a href="message.php?user=<?php echo $current_match['user_id']; ?>" class="chat-button">Chat 💬</a> -->
             </div>
         <?php else: ?>
             <h3>Sorry, we were not able to match you 😢</h3>
