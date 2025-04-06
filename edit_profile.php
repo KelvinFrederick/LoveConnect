@@ -144,6 +144,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </form>
 
         <p style="margin-top: 15px;"><a href="home.php">← Back to Home</a></p>
+        <p style="margin-top: 15px;"><a href="logout.php">Logout →</a></p>
     </div>
 
 </body>

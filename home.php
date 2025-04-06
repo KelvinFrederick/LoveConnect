@@ -135,7 +135,6 @@ $notif_check->close();
             <h3>Sorry, we were not able to match you 😢</h3>
         <?php endif; ?>
 
-        <p><a href="logout.php">Logout</a></p>
     </div>
 
     <!-- 🔊 Notification sound & toast -->
