@@ -145,6 +145,8 @@
             <button type="submit" class="primary-btn">Login</button>
         </form>
         
+        <p><a href="forgot-password.php">Forgot Password?</a></p>
+        
         <p>Don't have an account? <a href="register.php">Register here</a></p>
         
         <!-- Discord Login Button -->
@@ -152,7 +154,6 @@
             <a href="login-discord.php" class="discord-btn">Login with Discord</a>
         </div>
     </div>
-
     <script>
         function togglePassword() {
             const passwordField = document.getElementById('password-field');
