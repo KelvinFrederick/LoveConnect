@@ -43,41 +43,45 @@
             color: #333;
         }
         
-        .logout-link {
-            display: inline-block;
+        .action-buttons {
+            display: flex;
             margin-top: 20px;
-            padding: 8px 16px;
-            background-color: #f44336;
+            gap: 10px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 16px;
             color: white;
             text-decoration: none;
             border-radius: 4px;
             transition: background-color 0.3s;
+            text-align: center;
+            white-space: nowrap;
         }
         
-        .logout-link:hover {
-            background-color: #d32f2f;
+        .btn-view {
+            background-color: #4CAF50;
         }
         
-        .edit-profile {
-            display: inline-block;
-            margin-top: 20px;
-            margin-right: 10px;
-            padding: 8px 16px;
+        .btn-view:hover {
+            background-color: #388E3C;
+        }
+        
+        .btn-edit {
             background-color: #2196F3;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s;
         }
         
-        .edit-profile:hover {
+        .btn-edit:hover {
             background-color: #0b7dda;
         }
         
-        .action-buttons {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
+        .btn-logout {
+            background-color: #f44336;
+        }
+        
+        .btn-logout:hover {
+            background-color: #d32f2f;
         }
     </style>
 </head>
@@ -101,8 +105,9 @@
         </div>
         
         <div class="action-buttons">
-            <a href="#" class="edit-profile">Edit Profile</a>
-            <a href="#" class="logout-link">Logout</a>
+            <a href="#" class="btn btn-view">View Profile</a>
+            <a href="#" class="btn btn-edit">Edit Profile</a>
+            <a href="#" class="btn btn-logout">Logout</a>
         </div>
     </div>
 </body>
